@@ -7,6 +7,9 @@
     "contributors": [
         "Aetherinox (https://github.com/Aetherinox)"
     ],
+    "publishConfig": {
+        "access": "public"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Aetherinox/nox-eslint-base.git"
