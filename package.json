@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "ESLint base for nox scripts",
     "homepage": "https://github.com/Aetherinox/nox-eslint-base",
-    "author": "Aetherinox (https://github.com/Aetherinox)",
+    "author": "Aetherinox",
     "contributors": [
         "Aetherinox (https://github.com/Aetherinox)"
     ],
