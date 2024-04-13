@@ -1,5 +1,5 @@
 {
-    "name": "nox-eslint-base",
+    "name": "@Aetherinox/nox-eslint-base",
     "version": "1.0.0",
     "description": "ESLint base for nox scripts",
     "homepage": "https://github.com/Aetherinox/nox-eslint-base",
