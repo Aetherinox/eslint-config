@@ -28,6 +28,7 @@
     },
     "scripts": {
       "lint": "prettier --check . && eslint .",
+      "pretty": "npx prettier . --write",
       "prepare": "husky install"
     },
     "keywords": [
