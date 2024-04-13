@@ -42,7 +42,7 @@ Implementation with javascript:
 {
   extends: [
     // . . .
-    '@Aetherinox'
+    '@aetherinox'
   ]
 }
 ```
@@ -56,7 +56,7 @@ Implementation with typescript:
 {
   extends: [
     // . . .
-    '@Aetherinox/eslint-config/typescript'
+    '@aetherinox/eslint-config/typescript'
   ]
 }
 ```
