@@ -55,7 +55,7 @@
       "eslint-plugin-ava": "^13.0.0",
       "eslint-plugin-import": "^2.25.0",
       "eslint-plugin-node": "^11.1.0",
-      "eslint-plugin-prettier": "^4.0.0",
+      "eslint-plugin-prettier": "^5.0.0",
       "eslint-plugin-promise": "^6.0.0",
       "eslint-plugin-tsdoc": "^0.2.14"
     },
