@@ -1,0 +1,80 @@
+{
+    "name": "nox-eslint-base",
+    "version": "1.0.0",
+    "description": "ESLint base for nox scripts",
+    "homepage": "https://github.com/Aetherinox/nox-eslint-base",
+    "author": "Aetherinox (https://github.com/Aetherinox)",
+    "contributors": [
+        "Aetherinox (https://github.com/Aetherinox)"
+    ],
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Aetherinox/nox-eslint-base.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Aetherinox/nox-eslint-base/issues"
+    },
+    "license": "MIT",
+    "files": [
+      "*.js",
+      "src"
+    ],
+    "main": "index.js",
+    "engines": {
+      "node": "^16.0.0 || >= 18.0.0"
+    },
+    "scripts": {
+      "lint": "prettier --check . && eslint .",
+      "prepare": "husky install"
+    },
+    "keywords": [
+      "aetherinox",
+      "eslint",
+      "configs"
+    ],
+    "dependencies": {
+      "@typescript-eslint/parser": "^7.0.1",
+      "eslint-config-prettier": "^9.0.0"
+    },
+    "devDependencies": {
+      "eslint": "^8.0.0",
+      "eslint-plugin-import": "^2.25.0",
+      "eslint-plugin-node": "^11.1.0",
+      "eslint-plugin-prettier": "^5.0.0",
+      "eslint-plugin-promise": "^6.0.0",
+      "husky": "^8.0.1",
+      "lint-staged": "^14.0.0",
+      "prettier": "^3.0.0"
+    },
+    "peerDependencies": {
+      "@typescript-eslint/eslint-plugin": "^6.0.0",
+      "eslint": ">=8.0.0",
+      "eslint-plugin-ava": "^13.0.0",
+      "eslint-plugin-import": "^2.25.0",
+      "eslint-plugin-node": "^11.1.0",
+      "eslint-plugin-prettier": "^4.0.0",
+      "eslint-plugin-promise": "^6.0.0",
+      "eslint-plugin-tsdoc": "^0.2.14"
+    },
+    "peerDependenciesMeta": {
+      "@typescript-eslint/eslint-plugin": {
+        "optional": true
+      },
+      "eslint-plugin-tsdoc": {
+        "optional": true
+      }
+    },
+    "funding": [
+        {
+            "type": "individual",
+            "url": "https://buymeacoffee.com/aetherinox"
+        }
+    ],
+    "lint-staged": {
+      "*.{cjs,js}": "eslint --cache --fix",
+      "*.{json,md,yml}": "prettier --write"
+    }
+}
