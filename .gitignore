@@ -4,6 +4,5 @@ dist
 docs
 .eslintcache
 node_modules
-package-lock.json
 yarn.lock
 coverage
