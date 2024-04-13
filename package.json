@@ -3,9 +3,18 @@
     "version": "1.0.1",
     "description": "ESLint base for nox scripts",
     "homepage": "https://github.com/Aetherinox/eslint-config",
-    "author": "Aetherinox",
+    "author": "Aetherinox <adminservx@proton.me>",
     "contributors": [
-        "Aetherinox (https://github.com/Aetherinox)"
+      {
+        "name": "Aetherinox",
+        "email": "adminservx@proton.me",
+        "url": "https://github.com/Aetherinox"
+      },
+      {
+        "name": "AdminServ",
+        "email": "adminservx@proton.me",
+        "url": "https://github.com/AdminServ"
+      }
     ],
     "publishConfig": {
         "access": "public"
