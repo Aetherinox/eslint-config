@@ -1,6 +1,6 @@
 {
     "name": "@aetherinox/nox-eslint-base",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "ESLint base for nox scripts",
     "homepage": "https://github.com/Aetherinox/nox-eslint-base",
     "author": "Aetherinox",
@@ -23,9 +23,6 @@
       "src"
     ],
     "main": "index.js",
-    "engines": {
-      "node": "^16.0.0 || >= 18.0.0"
-    },
     "scripts": {
       "lint": "prettier --check . && eslint .",
       "pretty": "npx prettier . --write",
@@ -40,23 +37,13 @@
       "@typescript-eslint/parser": "^7.0.1",
       "eslint-config-prettier": "^9.0.0"
     },
-    "devDependencies": {
-      "eslint": "^8.0.0",
-      "eslint-plugin-import": "^2.25.0",
-      "eslint-plugin-node": "^11.1.0",
-      "eslint-plugin-prettier": "^5.0.0",
-      "eslint-plugin-promise": "^6.0.0",
-      "husky": "^8.0.1",
-      "lint-staged": "^14.0.0",
-      "prettier": "^3.0.0"
-    },
     "peerDependencies": {
-      "@typescript-eslint/eslint-plugin": "^5.0.0",
+      "@typescript-eslint/eslint-plugin": "^6.0.0",
       "eslint": ">=8.0.0",
       "eslint-plugin-ava": "^13.0.0",
       "eslint-plugin-import": "^2.25.0",
       "eslint-plugin-node": "^11.1.0",
-      "eslint-plugin-prettier": "^5.0.0",
+      "eslint-plugin-prettier": "^4.0.0",
       "eslint-plugin-promise": "^6.0.0",
       "eslint-plugin-tsdoc": "^0.2.14"
     },
@@ -67,6 +54,19 @@
       "eslint-plugin-tsdoc": {
         "optional": true
       }
+    },
+    "devDependencies": {
+      "eslint": "^8.0.0",
+      "eslint-plugin-import": "^2.25.0",
+      "eslint-plugin-node": "^11.1.0",
+      "eslint-plugin-prettier": "^5.0.0",
+      "eslint-plugin-promise": "^6.0.0",
+      "husky": "^8.0.1",
+      "lint-staged": "^14.0.0",
+      "prettier": "^3.0.0"
+    },
+    "engines": {
+      "node": "^16.0.0 || >= 18.0.0"
     },
     "funding": [
         {
