@@ -1,7 +1,7 @@
 # eslint-config
 
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Aetherinox/eslint-config/npm-tests.yml?logo=github&label=Tests&color=%23de1f6f)
-[![NPM package](https://img.shields.io/npm/v/eslint-config)](https://npm.im/eslint-config)
+[![NPM package](https://img.shields.io/npm/v/@aetherinox/eslint-config)](https://npm.im/@aetherinox/eslint-config)
 
 <br />
 
