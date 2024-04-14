@@ -1,7 +1,6 @@
 # eslint-config
 
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Aetherinox/eslint-config/npm-tests.yml?logo=github&label=Tests&color=%23de1f6f)
-![Codecov](https://img.shields.io/codecov/c/github/Aetherinox/eslint-config?token=MPAVASGIOG&logo=codecov&logoColor=FFFFFF&label=Coverage&color=354b9e)
 [![NPM package](https://img.shields.io/npm/v/eslint-config)](https://npm.im/eslint-config)
 
 <br />
